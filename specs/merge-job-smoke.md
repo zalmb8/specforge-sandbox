@@ -22,3 +22,5 @@ acceptance:
 ## Out of scope
 
 This line was added after approval, to test stale-approval handling.
+
+Second content change, to trigger dismiss-stale.
