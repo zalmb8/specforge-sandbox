@@ -20,3 +20,5 @@ acceptance:
 ## Design
 
 ## Out of scope
+
+Content change pushed after approval.
