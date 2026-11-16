@@ -2,7 +2,7 @@
 specforge: 1
 id: todo-priority
 title: Task priorities
-status: draft
+status: approved
 depends_on: [todo-cli-base]
 acceptance:
   - id: AC-1
