@@ -12,6 +12,6 @@ jobs:
   gate:
     permissions:
       contents: read
-      pull-requests: read
+      pull-requests: write
       statuses: write
     uses: zalmb8/specforge/.github/workflows/gate.yml@v0
