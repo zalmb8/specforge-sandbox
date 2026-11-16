@@ -2,7 +2,7 @@
 specforge: 1
 id: todo-cli-base
 title: Minimal todo CLI
-status: draft
+status: approved
 depends_on: []
 acceptance:
   - id: AC-1
