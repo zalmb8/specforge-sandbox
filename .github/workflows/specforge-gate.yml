@@ -24,3 +24,15 @@ jobs:
       pull-requests: write
       checks: read
     uses: zalmb8/specforge/.github/workflows/merge-on-approval.yml@v0
+
+  # When commits are pushed to a spec/ or build/ PR, dismiss approvals given on older commits and
+  # re-request the reviewers, so GitHub's "approved" state matches what the gate accepts.
+  dismiss-stale:
+    if: >-
+      github.event_name == 'pull_request' &&
+      github.event.action == 'synchronize' &&
+      (startsWith(github.event.pull_request.head.ref, 'spec/') || startsWith(github.event.pull_request.head.ref, 'build/'))
+    permissions:
+      contents: read
+      pull-requests: write
+    uses: zalmb8/specforge/.github/workflows/dismiss-stale.yml@v0
