@@ -31,3 +31,4 @@ A Node script at `bin/todo.js`. The store is a JSON array of `{ id, text }` in t
 
 - Removing, completing or editing tasks.
 - Any storage other than the JSON file.
+tamper
