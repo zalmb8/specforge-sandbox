@@ -1,0 +1,6 @@
+{
+  "extraKnownMarketplaces": {
+    "specforge": { "source": { "source": "github", "repo": "zalmb8/specforge" } }
+  },
+  "enabledPlugins": { "specforge@specforge": true }
+}

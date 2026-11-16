@@ -1,0 +1,13 @@
+# .specforge/config.yml
+specforge: 1
+spec_dir: specs
+default_branch: main
+protected_paths: []          # extra regexes that always need a human, e.g. ^migrations/
+commands:
+  test: npm test
+  lint: ""                   # leave empty if the repo has no lint script
+loops:
+  spec_review_max: 3
+  ci_fix_max: 5
+  code_review_max: 3
+review_lenses: [testability, scope-risk, codebase-fit]
