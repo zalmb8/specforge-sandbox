@@ -1,1 +1,1 @@
-{ "name": "specforge-sandbox", "version": "0.0.0", "private": true, "scripts": { "test": "node --test test/" } }
+{ "name": "specforge-sandbox", "version": "0.0.0", "private": true, "scripts": { "test": "node --test test/*.test.js" } }
