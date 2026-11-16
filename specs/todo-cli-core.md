@@ -1,6 +1,6 @@
 ---
 specforge: 1
-id: todo-cli-base
+id: todo-cli-core
 title: Minimal todo CLI
 status: done
 depends_on: []

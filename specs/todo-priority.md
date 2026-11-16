@@ -3,7 +3,7 @@ specforge: 1
 id: todo-priority
 title: Task priorities
 status: approved
-depends_on: [todo-cli-base]
+depends_on: [todo-cli-core]
 acceptance:
   - id: AC-1
     text: "`todo add <text> --priority <high|medium|low>` stores the priority with the task; without the flag the priority is `medium`; any other value exits non-zero with an error and stores nothing."
