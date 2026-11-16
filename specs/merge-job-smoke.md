@@ -20,3 +20,5 @@ acceptance:
 ## Design
 
 ## Out of scope
+
+This line was added after approval, to test stale-approval handling.
