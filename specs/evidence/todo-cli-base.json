@@ -1,0 +1,9 @@
+{
+  "specforge": 1,
+  "spec": "todo-cli-base",
+  "sha": "14284258a82a4f715bc89764534dc74492ee8b89",
+  "results": [
+    { "id": "AC-1", "target": "npm test -- --test-name-pattern \"AC-1 add stores a task\"", "result": "pass", "detail": "npm test exited 0; '✔ AC-1 add stores a task' shown (5/5 tests pass; filter not applied by shell so all tests ran)" },
+    { "id": "AC-2", "target": "npm test -- --test-name-pattern \"AC-2 list prints tasks in order\"", "result": "pass", "detail": "npm test exited 0; '✔ AC-2 list prints tasks in order' shown (5/5 tests pass; filter not applied by shell so all tests ran)" }
+  ]
+}
