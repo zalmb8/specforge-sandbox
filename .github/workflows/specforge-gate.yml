@@ -14,4 +14,6 @@ jobs:
       contents: read
       pull-requests: write
       statuses: write
-    uses: zalmb8/specforge/.github/workflows/gate.yml@v0
+    uses: zalmb8/specforge/.github/workflows/gate.yml@d40d768f54150f6af26ed678c44d5f000fac6119
+    with:
+      specforge_ref: d40d768f54150f6af26ed678c44d5f000fac6119
