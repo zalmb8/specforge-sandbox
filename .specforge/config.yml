@@ -2,6 +2,7 @@
 specforge: 1
 spec_dir: specs
 default_branch: main
+reviewers: [zalmb8]
 protected_paths: []          # extra regexes that always need a human, e.g. ^migrations/
 commands:
   test: npm test
