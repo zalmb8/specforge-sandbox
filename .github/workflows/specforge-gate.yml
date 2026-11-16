@@ -22,4 +22,5 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      checks: read
     uses: zalmb8/specforge/.github/workflows/merge-on-approval.yml@v0
